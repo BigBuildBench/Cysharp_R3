@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <IsPackable>false</IsPackable>
+        <IsTestProject>true</IsTestProject>
+        <NoWarn>9113</NoWarn>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Using Include="R3" />
+        <Using Include="Xunit" />
+        <Using Include="Xunit.Abstractions" />
+        <Using Include="FluentAssertions" />
+        <Using Include="Microsoft.Extensions.Time.Testing" />
+    </ItemGroup>
+
+</Project>
